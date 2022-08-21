@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name[pl]=Menedżer maszyn wirtualnych
+Name=Virtual Machine Manager
+Comment[pl]=Zarządzanie maszynami wirtualnymi
+Comment=Manage virtual machines
+Icon=virt-manager
+Exec=virt-manager
+Type=Application
+Terminal=false
+Categories=System;
+X-XFCE-Source=file:///usr/share/applications/virt-manager.desktop
