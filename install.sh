@@ -9,9 +9,7 @@ cp -rvv home/xf0r3m/.config /etc/skel;
 sudo rm -rf /etc/lightdm;
 sudo cp -rvv etc/lightdm /etc;
 
-cp -rvv home/xf0r3m/Obrazy /etc/skel;
-
-
-screen=$(xrandr | grep '\ connected\ ' | awk '{printf $1}');
-sed -i "s/eDP-1/$screen/" /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml;
+rm /usr/share/images/desktop-base/default;
+cp -rvv home/xf0r3m/Obrazy/* /usr/share/images/desktop-base;
+ln -s /usr/share/images/desktop-base/Volna4k-Edit.png /usr/share/images/desktop-base/default;
 
