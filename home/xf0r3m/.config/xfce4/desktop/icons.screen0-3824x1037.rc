@@ -2,14 +2,14 @@
 4.10.3+=true
 
 [Kosz]
-row=0
-col=0
+row=8
+col=1
 
 [/]
-row=1
-col=0
+row=8
+col=2
 
 [/home/xf0r3m]
-row=2
+row=8
 col=0
 
