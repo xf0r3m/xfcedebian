@@ -28,7 +28,7 @@ MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=TRUE
 ShortcutsNoMenukey=TRUE
 BackgroundMode=TERMINAL_BACKGROUND_IMAGE
-BackgroundImageFile=/home/xf0r3m/Obrazy/linux_terminal_wallpaper.png
+BackgroundImageFile=/usr/share/images/desktop-base/linux_terminal_wallpaper.png
 BackgroundImageStyle=TERMINAL_BACKGROUND_STYLE_SCALED
 BackgroundImageShading=0,750000
 
