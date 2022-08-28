@@ -6,6 +6,8 @@ cp -rvv home/xf0r3m/.cache /etc/skel;
 
 cp -rvv home/xf0r3m/.config /etc/skel;
 
+cp home/xf0r3m/.vimrc /etc/skel;
+
 sudo rm -rf /etc/lightdm;
 sudo cp -rvv etc/lightdm /etc;
 
