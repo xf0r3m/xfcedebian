@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install ranger git qmmp vlc lynx tmux pass qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon virt-manager
+sudo apt install -y ranger git qmmp vlc lynx tmux pass qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon virt-manager
 
 cp -rvv home/xf0r3m/.cache /etc/skel;
 
