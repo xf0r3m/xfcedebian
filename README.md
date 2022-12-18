@@ -8,9 +8,8 @@
       1. git clone https://github.com/xf0r3m/xfcedebian.git
       2. cd xfcedebian
       2. chmod +x install.sh
-      3. ./install.sh (W razie pytań programu pacman, odpowiedzi
-      pozostawiamy domyślnie)
-      4. useradd -m -s /bin/bash xf0r3m
-      5. passwd xf0r3m
+      3. sudo ./install.sh
+      4. useradd -m -s /bin/bash user
+      5. passwd user
       6. reboot
 

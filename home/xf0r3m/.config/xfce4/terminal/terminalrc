@@ -5,7 +5,7 @@ MiscBellUrgent=FALSE
 MiscBordersDefault=TRUE
 MiscCursorBlinks=FALSE
 MiscCursorShape=TERMINAL_CURSOR_SHAPE_BLOCK
-MiscDefaultGeometry=80x24
+MiscDefaultGeometry=100x30
 MiscInheritGeometry=FALSE
 MiscMenubarDefault=TRUE
 MiscMouseAutohide=FALSE
@@ -31,4 +31,5 @@ BackgroundMode=TERMINAL_BACKGROUND_IMAGE
 BackgroundImageFile=/usr/share/images/desktop-base/linux_terminal_wallpaper.png
 BackgroundImageStyle=TERMINAL_BACKGROUND_STYLE_SCALED
 BackgroundImageShading=0,750000
+MiscRightClickAction=TERMINAL_RIGHT_CLICK_ACTION_CONTEXT_MENU
 

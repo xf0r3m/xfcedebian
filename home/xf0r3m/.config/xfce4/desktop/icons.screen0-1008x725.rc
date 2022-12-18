@@ -1,0 +1,15 @@
+[xfdesktop-version-4.10.3+-rcfile_format]
+4.10.3+=true
+
+[Kosz]
+row=5
+col=2
+
+[/]
+row=5
+col=1
+
+[/home/xf0r3m]
+row=5
+col=0
+
