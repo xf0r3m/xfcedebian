@@ -1,19 +1,13 @@
 #!/bin/bash
 
-set -e
+sudo apt install -y lightdm-gtk-greeter-settings;
 
-sudo apt install -y ranger git qmmp vlc lynx tmux pass qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon virt-manager
+sudo cp -rvv images/* /usr/share/images/desktop-base;
+sudo cp -rvv icons/* /usr/share/icons;
 
-cp -rvv home/xf0r3m/.cache /etc/skel;
+sudo cp -prvv config/* /etc/lightdm;
 
-cp -rvv home/xf0r3m/.config /etc/skel;
+user=$(getent passwd 1000 | cut -d ":" -f 1);
 
-cp home/xf0r3m/.vimrc /etc/skel;
-
-sudo rm -rf /etc/lightdm;
-sudo cp -rvv etc/lightdm /etc;
-
-rm /usr/share/images/desktop-base/default;
-cp -rvv home/xf0r3m/Obrazy/* /usr/share/images/desktop-base;
-ln -s /usr/share/images/desktop-base/Volna4k-Edit.png /usr/share/images/desktop-base/default;
-
+sudo cp -rvv xfce4 /home/${user}/.config;
+sudo chown -R ${user}:${user} /home/${user};
