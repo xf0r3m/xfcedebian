@@ -14,6 +14,7 @@ sudo cp -rvv xfce4 /etc/skel/.config;
 
 sudo userdel -r $user;
 sudo useradd -m -s /bin/bash $user;
+sudo mkdir /home/${user}/Pulpit;
 sudo cp -rvv launchers/* /home/${user}/Pulpit;
 sudo chown -R ${user}:${user} /home/${user};
 echo "${user}:${user}1" | chpasswd $user;
