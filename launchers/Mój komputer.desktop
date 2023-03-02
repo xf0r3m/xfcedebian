@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Mój komputer
+Comment=
+Exec=thunar
+Icon=computer
+Path=
+Terminal=false
+StartupNotify=false
