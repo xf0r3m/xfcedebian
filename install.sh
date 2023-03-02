@@ -9,5 +9,9 @@ sudo cp -prvv config/* /etc/lightdm;
 
 user=$(getent passwd 1000 | cut -d ":" -f 1);
 
-sudo cp -rvv xfce4 /home/${user}/.config;
-sudo chown -R ${user}:${user} /home/${user};
+sudo mkdir /etc/skel/.config;
+sudo cp -rvv xfce4 /etc/skel/.config;
+
+sudo userdel -r $user;
+sudo useradd -m -s /bin/bash $user;
+echo "${user}:${user}1" | chpasswd $user;
