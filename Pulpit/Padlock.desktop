@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Padlock
+Comment=
+Exec=/usr/local/bin/padlock --unlock
+Icon=padlock
+Path=
+Terminal=true
+StartupNotify=false

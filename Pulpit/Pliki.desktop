@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Pliki
+Comment=Przegląda system plików za pomocą menedżera plików
+Exec=exo-open --launch FileManager %u
+Icon=org.xfce.filemanager
+Path=
+Terminal=false
+StartupNotify=true

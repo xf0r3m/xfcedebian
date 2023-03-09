@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Terminal
+Comment=Emuluje działanie terminala X
+Exec=xfce4-terminal
+Icon=org.xfce.terminal
+Path=
+Terminal=false
+StartupNotify=true

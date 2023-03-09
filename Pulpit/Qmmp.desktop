@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Qmmp
+Comment=Odtwarzacz multimedialny oparty na Qt
+Exec=qmmp-1 %F
+Icon=qmmp-1
+Path=
+Terminal=false
+StartupNotify=false
