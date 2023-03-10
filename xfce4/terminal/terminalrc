@@ -31,4 +31,5 @@ MiscRightClickAction=TERMINAL_RIGHT_CLICK_ACTION_CONTEXT_MENU
 BackgroundImageFile=/usr/share/images/desktop-base/lofi_girl.jpg
 BackgroundImageStyle=TERMINAL_BACKGROUND_STYLE_FILLED
 BackgroundImageShading=0,600000
+FontName=Source Code Pro 12
 

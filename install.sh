@@ -14,6 +14,7 @@ cp vimrc /etc/skel/.vimrc;
 cp conkyrc /etc/skel/.conkyrc;
 
 cp -rvv Pulpit /etc/skel;
+tar -xzvf fonts.tgz -C /etc/skel;
 
 rm -rf /etc/lightdm;
 cp -rvv lightdm /etc;
