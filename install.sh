@@ -23,4 +23,5 @@ rm /usr/share/images/desktop-base/default;
 cp -rvv images/* /usr/share/images/desktop-base;
 ln -s /usr/share/images/desktop-base/altai_1920x1080.png /usr/share/images/desktop-base/default;
 
-cp -vv icons/* /usr/share/icons;
+cp icons/* /usr/share/icons;
+ln -s /usr/share/icons/changes-prevent.png /usr/share/icons/padlock-icon.png;
