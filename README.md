@@ -12,4 +12,3 @@
       4. useradd -m -s /bin/bash user
       5. passwd user
       6. reboot
-
