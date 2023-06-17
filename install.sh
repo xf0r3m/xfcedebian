@@ -2,7 +2,7 @@
 
 set -e
 
-apt install -y ranger git qmmp vlc lynx tmux pass qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon virt-manager conky picom vim-gtk3 thunderbird;
+apt install -y ranger git qmmp vlc lynx tmux pass qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon virt-manager conky picom vim-gtk3 mutt;
 
 mkdir /etc/skel/.config;
 cp -rvv xfce4 /etc/skel/.config;
@@ -22,6 +22,7 @@ cp -rvv lightdm /etc;
 rm /usr/share/images/desktop-base/default;
 cp -rvv images/* /usr/share/images/desktop-base;
 ln -s /usr/share/images/desktop-base/d13_wallpaper.png /usr/share/images/desktop-base/default;
+if [ -f /etc/skel/.face ]; then rm /etc/skel/.face; fi
 ln -s /usr/share/images/desktop-base/immudex_xfce_greeter_logo.png /etc/skel/.face;
 
 cp icons/* /usr/share/icons;
