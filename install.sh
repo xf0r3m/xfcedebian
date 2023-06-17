@@ -6,7 +6,8 @@ apt install -y ranger git qmmp vlc lynx tmux pass qemu-kvm libvirt-clients libvi
 
 mkdir /etc/skel/.config;
 cp -rvv xfce4 /etc/skel/.config;
-cp mimeapps.list /etc/skel/.config;
+cp -vv mimeapps.list /etc/skel/.config;
+cp -vv mimeinfo.cache /usr/share/applications;
 
 mkdir /etc/skel/.config/autostart;
 cp conky.desktop /etc/skel/.config/autostart;
