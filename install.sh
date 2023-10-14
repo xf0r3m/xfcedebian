@@ -2,7 +2,13 @@
 
 set -e
 
-apt install -y ranger git qmmp vlc lynx tmux pass qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon virt-manager conky vim-gtk3 mutt;
+# Pakiet conky jest pakietem wirtualnym zapewnianym przez:
+#  conky-std 1.19.5-1
+#  conky-cli 1.19.5-1
+#  conky-all 1.19.5-1
+#Należy jednoznacznie wybrać jeden z nich do instalacji.
+
+apt install -y ranger git qmmp vlc lynx tmux pass qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon virt-manager conky-all vim-gtk3 mutt;
 
 mkdir /etc/skel/.config;
 cp -rvv xfce4 /etc/skel/.config;
