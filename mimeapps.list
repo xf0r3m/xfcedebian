@@ -20,6 +20,7 @@ audio/mp4=vlc.desktop
 audio/mpeg=qmmp-1.desktop
 audio/ogg=qmmp-1.desktop
 audio/x-flac+ogg=qmmp-1.desktop
+audio/x-opus+ogg=qmmp-1.desktop
 audio/x-mod=qmmp-1.desktop
 audio/x-ms-wma=qmmp-1.desktop
 audio/x-musepack=qmmp-1.desktop

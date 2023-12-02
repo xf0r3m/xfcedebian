@@ -303,6 +303,7 @@ audio/x-stm=org.xfce.Parole.desktop;qmmp-1.desktop;qmmp-enqueue-1.desktop;
 audio/x-tta=io.github.quodlibet.QuodLibet.desktop;mpv.desktop;org.xfce.Parole.desktop;qmmp-1.desktop;qmmp-enqueue-1.desktop;vlc.desktop;
 audio/x-vorbis=mpv.desktop;org.xfce.Parole.desktop;vlc.desktop;
 audio/x-vorbis+ogg=qmmp-1.desktop;qmmp-enqueue-1.desktop;vlc.desktop;
+audio/x-opus+ogg=qmmp-1.desktop;qmmp-enqueue-1.desktop;vlc.desktop;
 audio/x-wav=io.github.quodlibet.QuodLibet.desktop;mpv.desktop;org.xfce.Parole.desktop;vlc.desktop;
 audio/x-wavpack=io.github.quodlibet.QuodLibet.desktop;mpv.desktop;org.xfce.Parole.desktop;qmmp-1.desktop;qmmp-enqueue-1.desktop;vlc.desktop;
 audio/x-wma=io.github.quodlibet.QuodLibet.desktop;
