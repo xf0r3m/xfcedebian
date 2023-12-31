@@ -21,7 +21,8 @@ cp conky.desktop /etc/skel/.config/autostart;
 cp vimrc /etc/skel/.vimrc;
 cp conkyrc /etc/skel/.conkyrc;
 
-#tar -xzvf fonts.tgz -C /etc/skel;
+mkdir /usr/share/fonts/truetype/meslo;
+tar -xzvf fonts.tgz -C /usr/share/fonts/truetype/meslo;
 
 rm -rf /etc/lightdm;
 cp -rvv lightdm /etc;

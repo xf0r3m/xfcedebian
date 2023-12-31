@@ -28,7 +28,7 @@
         <value type="int" value="13"/>
         <value type="int" value="4"/>
       </property>
-      <property name="disable-struts" type="bool" value="false"/>
+      <property name="enable-struts" type="bool" value="true"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -42,6 +42,7 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="nawiązano ethernetowe połączenie sieciowe „połączenie przewodowe 1”"/>
         <value type="string" value="nawiązano ethernetowe połączenie sieciowe „wired connection 1”"/>
         <value type="string" value="aplet networkmanager"/>
       </property>
@@ -67,7 +68,31 @@
     <property name="plugin-13" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-1" type="string" value="whiskermenu"/>
+    <property name="plugin-1" type="string" value="whiskermenu">
+      <property name="button-title" type="string" value="Start"/>
+      <property name="button-icon" type="string" value="debian-logo"/>
+      <property name="show-button-title" type="bool" value="true"/>
+      <property name="launcher-icon-size" type="int" value="3"/>
+      <property name="favorites-in-recent" type="bool" value="true"/>
+      <property name="position-search-alternate" type="bool" value="true"/>
+      <property name="position-categories-alternate" type="bool" value="true"/>
+      <property name="show-command-logoutuser" type="bool" value="true"/>
+      <property name="show-command-restart" type="bool" value="true"/>
+      <property name="show-command-shutdown" type="bool" value="true"/>
+      <property name="show-command-suspend" type="bool" value="true"/>
+      <property name="show-command-logout" type="bool" value="false"/>
+      <property name="favorites" type="array">
+        <value type="string" value="xfce4-web-browser.desktop"/>
+        <value type="string" value="xfce4-file-manager.desktop"/>
+        <value type="string" value="xfce4-terminal-emulator.desktop"/>
+        <value type="string" value="qmmp-1.desktop"/>
+        <value type="string" value="gvim.desktop"/>
+        <value type="string" value="vlc.desktop"/>
+        <value type="string" value="virt-manager.desktop"/>
+      </property>
+      <property name="recent" type="array">
+      </property>
+    </property>
     <property name="plugin-4" type="string" value="showdesktop"/>
     <property name="plugin-5" type="string" value="launcher">
       <property name="items" type="array">

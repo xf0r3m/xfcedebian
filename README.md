@@ -1,3 +1,3 @@
 # xfcedebian
 
-Layout środowiska graficznego dla immudex-testing.
+Layout środowiska graficznego dla immudex.
