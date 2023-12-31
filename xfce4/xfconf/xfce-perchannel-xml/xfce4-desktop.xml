@@ -27,7 +27,11 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="1"/>
           <property name="image-style" type="int" value="5"/>
+<<<<<<< HEAD
           <property name="last-image" type="string" value="/usr/share/images/desktop-base/altai_1920x1080.png"/>
+=======
+          <property name="last-image" type="string" value="/usr/share/images/desktop-base/default"/>
+>>>>>>> origin/d13
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="1"/>

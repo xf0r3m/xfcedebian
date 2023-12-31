@@ -4,6 +4,10 @@
   <property name="applications" type="empty">
     <property name="known_applications" type="array">
       <value type="string" value="nm-applet"/>
+<<<<<<< HEAD
+=======
+      <value type="string" value="org.freedesktop.network-manager-applet"/>
+>>>>>>> origin/d13
     </property>
   </property>
 </channel>

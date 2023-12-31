@@ -51,6 +51,7 @@ conky.config = {
 }
 
 conky.text = [[
+<<<<<<< HEAD
 ${color blue}Info:$color ${scroll 32 $nodename - $sysname $nodename $kernel $machine}
 $hr
 ${color blue}Uptime:$color $uptime
@@ -68,6 +69,25 @@ ${color blue}Networking:
 Up:$color ${upspeed} ${color blue} - Down:$color ${downspeed}
 $hr
 ${color blue}Name              PID     CPU%   MEM%
+=======
+${color green}Info:$color ${scroll 32 immudex${exec immudex-branch} ${exec immudex-version} - $sysname $nodename $kernel $machine}
+$hr
+${color green}Uptime:$color $uptime
+${color green}Frequency (in MHz):$color $freq
+${color green}Frequency (in GHz):$color $freq_g
+${color green}RAM Usage:$color $mem/$memmax - $memperc% ${membar 4}
+${color green}Swap Usage:$color $swap/$swapmax - $swapperc% ${swapbar 4}
+${color green}CPU Usage:$color $cpu% ${cpubar 4}
+${color green}Processes:$color $processes  ${color green}Running:$color $running_processes
+${color green}Battery:$color ${battery}
+$hr
+${color green}File systems:
+ / $color${fs_used /}/${fs_size /} ${fs_bar 6 /}
+${color green}Networking:
+Up:$color ${upspeed} ${color green} - Down:$color ${downspeed}
+$hr
+${color green}Name              PID     CPU%   MEM%
+>>>>>>> origin/d13
 ${color red} ${top name 1} ${top pid 1} ${top cpu 1} ${top mem 1}
 ${color red} ${top name 2} ${top pid 2} ${top cpu 2} ${top mem 2}
 ${color red} ${top name 3} ${top pid 3} ${top cpu 3} ${top mem 3}
