@@ -28,8 +28,10 @@ rm -rf /etc/lightdm;
 cp -rvv lightdm /etc;
 
 rm /usr/share/images/desktop-base/default;
+rm /usr/share/backgrounds/xfce/xfce-x.svg;
 cp -rvv images/* /usr/share/images/desktop-base;
 ln -s /usr/share/images/desktop-base/d13_wallpaper.png /usr/share/images/desktop-base/default;
+ln -s /usr/share/images/desktop-base/d13_wallpaper.png /usr/share/backgrounds/xfce/xfce-x.svg;
 if [ -f /etc/skel/.face ]; then rm /etc/skel/.face; fi
 ln -s /usr/share/images/desktop-base/immudex_xfce_greeter_logo.png /etc/skel/.face;
 
