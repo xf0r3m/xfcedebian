@@ -34,6 +34,7 @@ ln -s /usr/share/images/desktop-base/d13_wallpaper.png /usr/share/images/desktop
 ln -s /usr/share/images/desktop-base/d13_wallpaper.png /usr/share/backgrounds/xfce/xfce-x.svg;
 if [ -f /etc/skel/.face ]; then rm /etc/skel/.face; fi
 ln -s /usr/share/images/desktop-base/immudex_xfce_greeter_logo.png /etc/skel/.face;
+sed -i 's/lightdm_wallpaper.jpg/d13_wallpaper.png/' /etc/lightdm/lightdm-gtk-greeter.conf;
 
 cp icons/* /usr/share/icons;
 ln -s /usr/share/icons/changes-prevent.png /usr/share/icons/padlock-icon.png;
