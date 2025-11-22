@@ -8,7 +8,7 @@ set -e
 #  conky-all 1.19.5-1
 #Należy jednoznacznie wybrać jeden z nich do instalacji.
 
-sudo apt install -y ranger git qmmp vlc qutebrowser tmux keepassxc conky-all vim-gtk3 claws-mail;
+sudo apt install -y ranger git qmmp mpv tmux keepassxc conky-all vim-gtk3;
 if [ "$1" ] && [ "$1" = "--immudex" ]; then
 
 	mkdir /etc/skel/.config;
